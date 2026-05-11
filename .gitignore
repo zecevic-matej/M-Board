@@ -1,0 +1,14 @@
+# Personal data exports — keep the folder structure (README) but ignore
+# the auto-generated JSON snapshots that contain real contacts / tasks.
+dashboard-logs/*.json
+dashboard-logs/journal.md
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+*~
